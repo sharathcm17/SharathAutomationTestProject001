@@ -13,7 +13,7 @@ WebDriver driver;
 	public void setup(){
 		
 		System.out.println("Execution started");
-		System.setProperty("webdriver.chrome.driver", "..\\SharathAutomationTestProlect001\\drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sharath Kumar C M\\git\\SharathAutomationTestProject001\\SharathAutomationTestProject001\\drivers\\chromedriver.exe");
 		
 		driver = new ChromeDriver();
 		
