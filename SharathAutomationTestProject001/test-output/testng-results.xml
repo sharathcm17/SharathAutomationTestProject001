@@ -2,27 +2,19 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-23T20:43:16 IST" name="Suite" finished-at="2021-05-23T20:43:16 IST" duration-ms="201">
+  <suite started-at="2021-05-26T18:31:16 IST" name="Default suite" finished-at="2021-05-26T18:31:16 IST" duration-ms="221">
     <groups>
     </groups>
-    <test started-at="2021-05-23T20:43:16 IST" name="Test" finished-at="2021-05-23T20:43:16 IST" duration-ms="201">
+    <test started-at="2021-05-26T18:31:16 IST" name="Default test" finished-at="2021-05-26T18:31:16 IST" duration-ms="221">
       <class name="Test.SimpleProject">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Test.SimpleProject@4e096385]" started-at="2021-05-23T20:43:16 IST" name="setup" finished-at="2021-05-23T20:43:16 IST" duration-ms="111" status="FAIL">
-          <exception class="java.lang.IllegalStateException">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.SimpleProject@20f5239f]" started-at="2021-05-26T18:31:16 IST" name="setup" finished-at="2021-05-26T18:31:16 IST" duration-ms="121" status="FAIL">
+          <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[The driver executable does not exist: C:\Users\Sharath Kumar C M\git\SharathAutomationTestProject001\SharathAutomationTestProject001\..\drivers\chromedriver.exe]]>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentReports.attachReporter(com.aventstack.extentreports.ExtentReporter[])" because "this.reports" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: C:\Users\Sharath Kumar C M\git\SharathAutomationTestProject001\SharathAutomationTestProject001\..\drivers\chromedriver.exe
-at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
-at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
-at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
-at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
-at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
-at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-at Test.SimpleProject.setup(SimpleProject.java:18)
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.attachReporter(com.aventstack.extentreports.ExtentReporter[])" because "this.reports" is null
+at Test.SimpleProject.setup(SimpleProject.java:43)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -49,26 +41,18 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="execute()[pri:0, instance:Test.SimpleProject@4e096385]" started-at="2021-05-23T20:43:16 IST" name="execute" finished-at="2021-05-23T20:43:16 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.IllegalStateException">
+        <test-method signature="execute()[pri:0, instance:Test.SimpleProject@20f5239f]" started-at="2021-05-26T18:31:16 IST" name="execute" finished-at="2021-05-26T18:31:16 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[The driver executable does not exist: C:\Users\Sharath Kumar C M\git\SharathAutomationTestProject001\SharathAutomationTestProject001\..\drivers\chromedriver.exe]]>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentReports.attachReporter(com.aventstack.extentreports.ExtentReporter[])" because "this.reports" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: C:\Users\Sharath Kumar C M\git\SharathAutomationTestProject001\SharathAutomationTestProject001\..\drivers\chromedriver.exe
-at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
-at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
-at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
-at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
-at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
-at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-at Test.SimpleProject.setup(SimpleProject.java:18)
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.attachReporter(com.aventstack.extentreports.ExtentReporter[])" because "this.reports" is null
+at Test.SimpleProject.setup(SimpleProject.java:43)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -95,15 +79,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- execute -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.SimpleProject@4e096385]" started-at="2021-05-23T20:43:16 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1621782796696" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.SimpleProject@20f5239f]" started-at="2021-05-26T18:31:16 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1622034076223" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Test.SimpleProject -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
